@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header {
+    background-color: #ffcccc; /* 背景色 */
+    width: 1000px;             /* 横幅 */
+    float: left;               /* 左寄せ */
+}
+
+/* メインコンテンツのスタイル */
+#main {
+    background-color: #ccffcc; /* 背景色 */
+    width: 700px;              /* 横幅 */
+    height: 500px;
+    float: left;               /* 左寄せ */
+}
+
+/* メニューのスタイル */
+#menu {
+    background-color: #ccccff; /* 背景色 */
+    width: 300px;              /* 横幅 */
+    height: 500px;
+    float: left;               /* 左寄せ */
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #ffccff; /* 背景色 */
+    clear: both;               /* フロート解除 */
+    width: 1000px;             /* 横幅 */
+    float: left;               /* 左寄せ */
+}
+
+/* 全体のスタイル（必要に応じて追加） */
+body {
+    font-family: Arial, sans-serif;
+}
